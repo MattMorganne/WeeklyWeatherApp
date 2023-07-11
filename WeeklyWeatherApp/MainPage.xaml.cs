@@ -13,7 +13,7 @@ namespace WeeklyWeatherApp
         private List<string> dates;
         private List<string> dates2;
 
-        public String CurrentDate => DateTime.UtcNow.ToString("d");
+        public String CurrentDate => DateTime.UtcNow.ToString("dddd, dd MMMM");
         public String Day => DateTime.Now.ToString("dddd");
 
 
